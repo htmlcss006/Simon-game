@@ -1,0 +1,140 @@
+body {
+    background: #a794f5;
+}
+
+#title-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60px;
+    margin: 50px;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.btn {
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    border-radius: 25px;
+    border: solid black 8px;
+}
+
+#start-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+
+.green {
+    background-color: #30CF7F;
+}
+
+.red {
+    background: #D70A07;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.start-btn {
+    background: #30e1ae;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    color: #333333;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+    font-size: large;
+    border: solid black 2px;
+}
+
+.start-btn:hover {
+    opacity: 0.7;
+}
+
+.start-btn:active {
+    opacity: 1;
+}
+
+.pressed {
+    background: rgb(116, 113, 113);
+    border: solid white 8px;
+}
+
+@media (max-width: 480px) {
+    #title-level {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .btn-container {
+        margin: 100px;
+        padding: 0px;
+    }
+
+    .btn {
+        display: block;
+        height: 100px;
+        width: 100px;
+        margin: 15px;
+        border-radius: 25px;
+        border: solid black 4px;
+    }
+
+    .start-btn:active {
+        opacity: 0.7;
+    }
+
+    .try-btn:active {
+        opacity: 0.7;
+    }
+
+}
+
+.try-btn {
+    background: red;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+    font-size: medium;
+    border: solid black 2px;
+}
+
+.try-btn:hover {
+    opacity: 0.6;
+}
+
+.try-btn:active {
+    opacity: 1;
+}
+
+.gameOver {
+    background: red;
+}
+
+.disable {
+    pointer-events: none;
+    opacity: 0.5;
+}
